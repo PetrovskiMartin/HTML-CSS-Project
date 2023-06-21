@@ -1,0 +1,422 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+.full-width{
+    width:100%;
+}
+
+.blue-line{
+    background-color: #5358c1;
+    height: 10px;
+}
+
+.bg-image{
+    background-image: url(../imges/banner.jpg);
+    background-size: cover;
+}
+
+.inner{
+    margin: 0 auto;
+    width: 1280px;
+}
+
+.logo{
+    float: left;
+    color: white;
+    margin-top: 3%;
+    font-size: 10px;
+}
+
+.navigation-wrap{
+    display: inline;
+}
+
+.navbar{
+    float: right;
+    margin-top: 5%;
+}
+
+.hamburger{
+    display: none;
+}
+
+#li1, #li2, #li3{
+    float: left;
+    list-style-type: none;
+    padding-left: 20px;
+    
+}
+
+#li1 a, #li2 a, #li3 a{
+    color: white;
+    text-decoration: none;
+}
+
+.welcome-wrap{
+    color: white;
+    padding: 13% 0 15% 0 ;
+}
+
+.welcome-wrap h1{
+    text-align: center;
+    font-size: 60px;
+    font-weight: 200;
+}
+
+.welcome-wrap .web-p{
+    text-align: center;
+    font-size: 16px;
+    font-weight:200;
+}
+
+.welcome-wrap .mob-p{
+    display: none;
+}
+
+.container{
+  margin-top: 5%;
+  
+}
+
+.blok1{
+    float: left;
+    width: 27%;
+    padding-right: 4%;
+    border-right: 1px solid #9a9a9a;
+}
+
+.blok1 h1{
+    color: #5358c1;
+    font-weight: 300;
+    font-size: 23px;
+}
+
+.blok1 p{
+    text-align: justify;
+    color: #9a9a9a;
+}
+
+.blok2{
+    float: left;
+    width: 27%;
+    padding-right: 4%;
+    padding-left: 4%;
+    border-right: 1px solid #9a9a9a;
+}
+
+.blok2 h1{
+    color: #5358c1;
+    font-weight: 300;
+    font-size: 23px;
+    
+}
+
+.blok2 p{
+    text-align: justify;
+    color: #9a9a9a
+}
+
+.blok3{
+    float: left;
+    width: 27%;
+    padding-left: 4%;
+}
+
+.blok3 h1{
+    color: #5358c1;
+    font-weight: 300;
+    font-size: 23px;
+}
+
+.blok3 p{
+    text-align: justify;
+    color: #9a9a9a;
+}
+
+.button1{
+    background-color: #5385c1;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    color: white;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+.blue-bg{
+    margin-top: 20%;
+    background-color: #5385c1;
+    clear: both;
+    padding: 3% 0% 5% 0%;
+}
+
+.title{
+    color: white;
+}
+
+.title h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.title p{
+    text-align: center;
+    padding-bottom: 5%;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+
+.person1{
+    margin-left: 0%;
+    float: left;
+    width: 21.5%;
+    margin-right: 4%;
+    border: 1px solid white;
+    text-align: center;
+}
+
+.person2{
+    float: left;
+    width: 21.5%;
+    margin-right: 4%;
+    border: 1px solid white;
+    text-align: center;
+}
+
+.person3{
+    float: left;
+    width: 21.5%;
+    margin-right: 4%;
+    border: 1px solid white;
+    text-align: center;    
+}
+
+.person4{
+    margin-right: 0%;
+    float: left;
+    width: 21.5%;
+    border: 1px solid white;
+    text-align: center;
+}
+
+
+.people-wrap img{
+    border-radius: 50%;
+    margin-top: 17%; 
+    margin-bottom: 8%;
+}
+
+#people-h1{
+    color: white;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 0%;
+}
+
+#people-p{
+    color: white;
+    font-weight: lighter;
+    text-align: center;
+    padding-bottom: 20%;
+    margin-top: 3%;
+}
+
+
+.article1{
+    width: 48%;
+    float: left;
+    padding-right: 2%;
+    padding-bottom: 7%;
+}
+
+.article1 h1{
+    color: #5385c1;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.article1 p{
+    color: #9a9a9a;
+}
+
+.article2{
+    width: 48%;
+    float: left;
+    padding-left: 2%;
+    padding-bottom: 7%;
+}
+
+.article2 h1{
+    color: #5385c1;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.article2 p{
+    color: #9a9a9a;
+}
+
+
+.title2 h1{
+    color: #5385c1;
+    text-align: center;
+    padding-top: 6%;
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.title2 p{
+    color: #9a9a9a;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+    padding-bottom: 4%;
+}
+
+.footer-text{
+    color: #9a9a9a;
+    display: inline;
+}
+.footer-text p{
+    display: inline-block;
+}
+
+.footer-icons{
+    float: right;
+    display: inline;
+    margin-top: 1%;
+}
+
+.fa-brands{
+    color:#5385c1;
+    margin: 0px 5px;
+}
+
+
+@media screen and (max-width:768px) {
+
+    .inner{
+        width: 100%;
+        margin: 0 auto;
+        width: 92%;
+        padding: 0 4% 0 4%;
+    }
+
+    .logo{
+        font-size: 8px;
+        margin-left: 5%;
+    }
+
+    .navigation{
+        display: none;
+    }
+
+    .hamburger{
+        display: inline-block;
+        color: white;
+        float: right;
+        margin-top: 7%;
+        margin-right: 5%;
+    }
+
+    .welcome-wrap h1{
+        font-size: 41px;
+    }
+
+    .welcome-wrap .web-p{
+        display: none;
+    }
+
+    .welcome-wrap .mob-p{
+        font-size: 8px;
+        color: white;
+        display: initial;
+        margin-left: 32%;
+        font-weight:200;
+    }
+
+    .blok1, .blok2, .blok3{
+        float: none;
+        width: 100%;
+        border-right: none;
+        padding: 0%;
+        border-bottom: 1px solid #9a9a9a;
+    }
+
+    .blok1 h1, .blok2 h1, .blok3 h1{
+        text-align: center;
+    }
+
+    .blok1 p, .blok2 p, .blok3 p{
+        text-align: center;
+    }
+
+    .button1{
+        margin-bottom: 10%;
+        width: 100%;
+        margin-top: none;
+    }
+
+    .person1, .person2, .person3, .person4{
+        float: none;
+        width: 100%;
+        border: 1px solid white;
+        border-top: none;
+        margin-bottom: 4%;
+    }
+    
+    .people-wrap img{
+        padding: none;
+    }
+
+    .article1, .article2{
+        float: none;
+        width: 100%;
+        padding-right: 0%;
+        padding-left: 0%;
+    }
+
+    
+    .article1 img, .article2 img{
+        width: 100%;
+    }
+
+    .article1 h1, .article2 h1{
+        text-align: center;
+    }
+
+    .article1 p, .article2 p{
+        text-align: center;
+    }
+    
+    .web-footer{
+        display: none;
+    }
+
+    .text-icons-mob{
+        text-align: center;
+    }
+
+    .footer-text-mob{
+        color: #9a9a9a;
+    }
+    .footer-text-mob p{
+        text-align: center;
+        margin-top: 10%;
+    }
+    
+    .footer-icons-mob{ 
+        width: 100%;
+        margin-top: 10%;
+    }
+    
+    .fa-brands{
+        color:#5385c1;
+        margin: 0px 5px;
+    }
+}
+
